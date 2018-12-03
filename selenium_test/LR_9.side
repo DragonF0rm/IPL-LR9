@@ -1,0 +1,1119 @@
+{
+  "id": "bdacd8b9-97aa-47a8-8819-e7ad2e60b8d3",
+  "version": "1.1",
+  "name": "LR_9",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "1b0adf30-f4cc-4226-b0ae-c29b3299e9d3",
+    "name": "Empty field",
+    "commands": [{
+      "id": "1c1ab239-cd4d-4fcf-a904-101b8ca04ae0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8523646f-8b7c-4db3-ba53-8c645724d553",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4304b715-fb0c-4aab-8a3c-719bc9d2270f",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cedd40f4-544b-4a14-87b3-53dc47da23a5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "ОШИБКА: недопустимый ввод"
+    }]
+  }, {
+    "id": "d3841dd3-0fa6-466a-a409-323fc9150d16",
+    "name": "Unexpected input",
+    "commands": [{
+      "id": "bbc04400-18d0-4d07-bae3-e9f44a0ce96f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50be6f82-aa50-464e-acc4-d2060f155d19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a50e48da-82c5-477e-81b0-522396f94eb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b12abe18-4f7a-4df0-9598-09257d4be470",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "d8913c8f-9640-4f27-afc0-354632f842f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6809c81-d429-4fea-a13d-c3f1a0980521",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "8987dd86-a184-4a5d-9ad2-f1fa0f300cb0",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa4e8c1-f677-4708-99ed-0f82d43eab73",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "982fe000-749e-4956-8ed1-7905047c6b93",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eefd906-5672-4762-a446-2135bc4391c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c13ad31d-66f9-4084-bdfc-8cd911e53b91",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d4c1c3-ccc1-46ed-9d48-bf87a29c3733",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9904dbd4-9bdf-41a5-a660-9b6484ce88ab",
+    "name": "Input less than 6",
+    "commands": [{
+      "id": "9e9b9960-d724-474c-b598-b806fc4555d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "443dfb5c-fd40-443f-a41b-9f001b8326fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad0512e1-91c5-49da-b44a-fe412e919a9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd377551-7bc1-4a57-826a-bd2b6dc465d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "f100a0b6-b2ea-4c47-bb30-874caacdc47a",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "276211c8-5f62-45f5-acce-e43ae5128a2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98858e89-a795-4604-9ce7-63b831408ce5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона не выполняется"
+    }, {
+      "id": "b43ce9f5-a7ef-45d1-99d1-97460b5ae5e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "0a113a27-d0ff-4377-a103-307aa6cc8f78",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "587ff06c-71e6-4de6-8fd3-cf6caceb143c",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26b067aa-4eb3-40ec-bf45-a29629b3b896",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона не выполняется"
+    }, {
+      "id": "48a85e1a-9837-4b84-af9c-bda5fe6d17e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "98f88401-3573-46d6-96a8-ddcff6e3d902",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2d7764-b059-4359-9962-023fbf86e9f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2466f7-9720-4e8e-b014-73d2bcb6d0d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582bb328-8fd3-4abd-9b44-eaba17d79b2d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a13f3cdd-6def-42e7-8d20-5008af5b9575",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "258,9.716659545898438"
+    }, {
+      "id": "005f1c8b-1341-4d45-8888-88afea830134",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "258,9.716659545898438"
+    }, {
+      "id": "81aed6eb-527d-4e5a-9d77-2e1be80cbc5b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "258,9.716659545898438"
+    }, {
+      "id": "af248c7f-cc15-4a24-a4ee-e827179ad3fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b55142-aca0-49ae-81cf-83c17fd4375d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона не выполняется"
+    }, {
+      "id": "0b8ff59e-0b48-479e-aa34-add4a2474f43",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th:nth-child(2)",
+      "targets": [
+        ["css=th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }, {
+      "id": "72586a44-62af-4707-8b3b-6103838dc721",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "56981b43-c7a9-4208-bfc4-396e6bd214c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3896cd66-2609-4c5e-ac0f-8fa0152d8a9c",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e166edb-ea8b-4e6c-9891-5b131dafe690",
+      "comment": "",
+      "command": "click",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48e2dca3-6729-4868-9392-f0ef6dc601c8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона не выполняется"
+    }, {
+      "id": "5cd6c91c-2d94-4839-9b34-bbed017c8baa",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b8513c9-0be4-4914-ba91-1a52ddceb847",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": "2*3*4=4!"
+    }, {
+      "id": "d218815e-9040-466c-9020-3f72baf61fc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "35e5c9d6-1aae-45be-ad20-dfdc1de3ff8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08677da8-b778-4d8e-a3aa-413580b6b6e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7944320c-ba03-4868-9ca1-6ea118d24103",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона не выполняется"
+    }, {
+      "id": "cb264293-8276-4ce0-a4c8-8ced6d137562",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }, {
+      "id": "d881ce59-82c4-4723-b62d-1da90a284796",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": "2*3*4=4!"
+    }, {
+      "id": "9a257ed0-de6b-4885-a273-5f20ee3724c1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[3]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/th[2]", "xpath:position"]
+      ],
+      "value": "4*5*6=5!"
+    }, {
+      "id": "f8bcb73e-bff5-4334-ab19-79a73b8afe56",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }]
+  }, {
+    "id": "b450f3d6-eb38-4635-a411-4a03fc84a6a9",
+    "name": "Input 6 and greater",
+    "commands": [{
+      "id": "8052fcd6-2e6a-4d8e-85a3-75be1f6c04a0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2892916-9318-4829-9071-7d7251dd82e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63d68e33-4834-4c5b-816d-60d87d55d0ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "657bc60b-59fc-448a-901f-f80e5661d0d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "5b042707-3136-488c-9d31-e59b24814773",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3feb4a2-1a46-4b47-974a-4f2272d2545e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона выполняется"
+    }, {
+      "id": "02fa54d8-1b12-47b3-bf89-c31a62dde0d2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }, {
+      "id": "e5cea2b4-1658-445a-9e06-17f69d0c7807",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": "2*3*4=4!"
+    }, {
+      "id": "5f496123-7ad0-46c7-aa6d-731d80f94b89",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[3]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/th[2]", "xpath:position"]
+      ],
+      "value": "4*5*6=5!"
+    }, {
+      "id": "52ce58a7-47af-4ae8-9710-432097aedd36",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[4]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef96271-8054-49de-9714-bf756ca8e53e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[4]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"]
+      ],
+      "value": "8*9*10=6!"
+    }, {
+      "id": "60308428-dc75-43d6-b001-c8ced0999abc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-55,12"
+    }, {
+      "id": "87933d49-f5c9-4069-bcd4-307493b97887",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-55,12"
+    }, {
+      "id": "6c3c51a5-73fb-4d81-a2b1-b6aceb8acfd0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-55,12"
+    }, {
+      "id": "d9df5bad-fc87-4719-b986-683de42b49b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ad012e-f88f-43e8-8e59-b23303fa4b2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "61239180-9c67-46c3-9383-567bd53443e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2cf27c-70c4-4f38-bfaf-f42b395bbee0",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "Гипотеза Симона выполняется"
+    }, {
+      "id": "baef7e5a-dcea-4d57-9fef-47dec7555a1e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }, {
+      "id": "e328b2dc-0cb7-4ef6-ab70-a8c441a7293e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": "2*3*4=4!"
+    }, {
+      "id": "89dab68c-44e3-454a-9170-3de217a766be",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[3]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/th[2]", "xpath:position"]
+      ],
+      "value": "4*5*6=5!"
+    }, {
+      "id": "7e4cd895-d8a0-4b5d-bf5a-73e5071d8e44",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[4]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"]
+      ],
+      "value": "8*9*10=6!"
+    }]
+  }, {
+    "id": "8668d5b3-5788-4430-a9cf-a05390ea67e3",
+    "name": "Input greater than 170",
+    "commands": [{
+      "id": "0717d4ef-a7df-4a3e-ae1f-cf92684bd50c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4bf1a14-c3e0-49f2-86e9-492b0e38a3e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47c5ff91-d66f-4819-b1c7-86414a60e566",
+      "comment": "",
+      "command": "click",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2d9e699-5e18-471e-948a-18fb7bf94b73",
+      "comment": "",
+      "command": "type",
+      "target": "id=max",
+      "targets": [
+        ["id=max", "id"],
+        ["name=max", "name"],
+        ["css=#max", "css"],
+        ["css=#max", "css:finder"],
+        ["xpath=//input[@id='max']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "171"
+    }, {
+      "id": "7de606f7-252c-4840-815e-a511ca6ca3b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='input_form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f643062-5245-46e8-97a0-bc39705bcbe3",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result_status",
+      "targets": [
+        ["id=result_status", "id"],
+        ["css=#result_status", "css"],
+        ["css=#result_status", "css:finder"],
+        ["xpath=//h4[@id='result_status']", "xpath:attributes"],
+        ["xpath=//h4", "xpath:position"]
+      ],
+      "value": "ОШИБКА: последнее рассчитанное значение 170! дальнейшие расчёты невозможны - недостаточно памяти"
+    }, {
+      "id": "994797f9-fafc-4b28-92b1-e0b162d97afd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"]
+      ],
+      "value": "1*2*3=3!"
+    }, {
+      "id": "4f8efed5-b21a-4823-bdbd-2d589df78942",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[2]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/th[2]", "xpath:position"]
+      ],
+      "value": "2*3*4=4!"
+    }, {
+      "id": "bdd1b9a3-50e4-4dac-8c93-5dc54327cb32",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[3]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/th[2]", "xpath:position"]
+      ],
+      "value": "4*5*6=5!"
+    }, {
+      "id": "d52a7258-5843-475e-a93d-8efdfb0e71fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[4]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee2dfb6-01e8-4124-a9d7-75fa2f63f139",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > th:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='result_content']/tbody/tr[4]/th[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/th[2]", "xpath:position"]
+      ],
+      "value": "8*9*10=6!"
+    }]
+  }],
+  "suites": [{
+    "id": "797e2997-34e4-456a-993e-244d24350cca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

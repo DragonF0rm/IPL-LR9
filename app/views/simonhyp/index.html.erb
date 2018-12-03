@@ -1,0 +1,11 @@
+<%= form_with method: :get, url: ajax_path, id: 'input_form' do |form| %>
+
+  <%= label_tag :max, 'Сколько чисел рассматривать?' %>
+  <%= form.number_field :max, placeholder: 'Введите число', min: 1, id: 'input_field' %>
+  <%= form.submit 'Проверить гипотезу Симона о факториале' %>
+
+<% end %>
+
+<h4 id="result_status"></h4>
+<br>
+<table id="result_content", border="1"></table>
